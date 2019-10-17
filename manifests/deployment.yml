@@ -1,0 +1,16 @@
+apiVersion : apps/v1beta1
+kind: Deployment
+metadata:
+  name: scottstoutpipelinesjavascriptdocker 
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: scottstoutpipelinesjavascriptdocker 
+    spec:
+      containers:
+        - name: scottstoutpipelinesjavascriptdocker 
+          image: scottstout.azurecr.io/scottstoutpipelinesjavascriptdocker 
+          ports:
+          - containerPort: 8080
