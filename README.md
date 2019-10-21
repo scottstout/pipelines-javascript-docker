@@ -1,4 +1,6 @@
 
+[![Build Status](https://dev.azure.com/sstout/MultiStageYAMLKube/_apis/build/status/scottstout.pipelines-javascript-docker?branchName=master)](https://dev.azure.com/sstout/MultiStageYAMLKube/_build/latest?definitionId=29&branchName=master)
+
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
